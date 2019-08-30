@@ -1,0 +1,24 @@
+@import "../../index.scss";
+.card-container {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	background-color: $mainDarkGrey;
+	border: 1px solid $mainGrey;
+	border-radius: 5px;
+	cursor: pointer;
+	-moz-osx-font-smoothing: grayscale;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: transform 0.25s ease-out;
+	text-transform: capitalize;
+
+	h4 {
+		color: $mainDarkBlue;
+		margin-top: 10px;
+	}
+	i {
+		color: $mainDarkBlue;
+		padding: 5px;
+	}
+}
