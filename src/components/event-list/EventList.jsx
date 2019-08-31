@@ -7,8 +7,10 @@ class EventList extends Component {
 	state = {
 		events: eventData
 	};
+
 	render() {
 		const { events } = this.state;
+		console.log(events);
 		return <section className="card-list">{events.map((event) => <Event key={event.id} event={event} />)}</section>;
 	}
 }

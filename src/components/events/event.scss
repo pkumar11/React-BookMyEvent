@@ -10,7 +10,7 @@
 	-moz-osx-font-smoothing: grayscale;
 	backface-visibility: hidden;
 	transform: translateZ(0);
-	transition: transform 0.25s ease-out;
+	transition: transform 0.5s ease-out;
 	text-transform: capitalize;
 
 	h4 {
@@ -20,5 +20,8 @@
 	i {
 		color: $mainDarkBlue;
 		padding: 5px;
+	}
+	&:hover {
+		transform: scale(1.05);
 	}
 }

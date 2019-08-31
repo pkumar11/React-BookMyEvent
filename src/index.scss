@@ -13,3 +13,10 @@ body {
 	background: $mainGrey;
 	color: $mainBlack;
 }
+a {
+	text-decoration: none;
+	&:visited,
+	:active {
+		color: $mainBlack;
+	}
+}

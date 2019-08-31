@@ -95,7 +95,7 @@ export const eventData = [
 		img: './img/img11.png',
 		time: '5hrs',
 		age: '18+',
-		date: 'sat 31 aug-15 sep 2019',
+		date: '31 aug-15 sep 2019',
 		location: 'multiple venues',
 		price: 0
 	},
