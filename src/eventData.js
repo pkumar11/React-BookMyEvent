@@ -6,7 +6,7 @@ export const eventData = [
 		time: '15 hrs',
 		age: '15+',
 		location: 'vagator,goa',
-		date: '31 dec 2019',
+		sdate: '31 dec 2019',
 		price: 2750
 	},
 	{
@@ -15,7 +15,7 @@ export const eventData = [
 		img: './img/img2.png',
 		time: '5hrs',
 		age: '15+',
-		date: '30 dec 2019',
+		sdate: '30 dec 2019',
 		location: 'multiple venues',
 		price: 1499
 	},
@@ -25,7 +25,7 @@ export const eventData = [
 		img: './img/img4.png',
 		time: '1hr 30min',
 		age: '16+',
-		date: '27 sep 2019',
+		sdate: '27 oct 2019',
 		location: 'multiple venues',
 		price: 399
 	},
@@ -35,7 +35,7 @@ export const eventData = [
 		img: './img/img5.png',
 		time: '1hr',
 		age: '18+',
-		date: '19 sep 2019',
+		sdate: '19 nov 2019',
 		location: 'oakwood residence kapil:hyderabad',
 		price: 599
 	},
@@ -45,7 +45,7 @@ export const eventData = [
 		img: './img/img6.png',
 		time: '1hr 30min',
 		age: '18+',
-		date: '10 sep 2019',
+		sdate: '10 nov 2019',
 		location: 'hard rock cafe,hyderabad',
 		price: 750
 	},
@@ -55,7 +55,7 @@ export const eventData = [
 		img: './img/img7.png',
 		time: '1week',
 		age: '5-8',
-		date: '3 sep 2019',
+		sdate: '3 nov 2019',
 		location: 'O play fun&learn:hyderabad',
 		price: 9000
 	},
@@ -65,7 +65,7 @@ export const eventData = [
 		img: './img/img8.png',
 		time: '4hrs',
 		age: '16+',
-		date: '11 sep 2019',
+		sdate: '11 sep 2019',
 		location: 'HICC-novatel hotel,hyderabad',
 		price: 1499
 	},
@@ -75,7 +75,7 @@ export const eventData = [
 		img: './img/img9.png',
 		time: '1hr 30min',
 		age: 'anyone',
-		date: '08 sep 2019',
+		date: '08 nov 2019',
 		location: 'the moonshine project,hyderabad',
 		price: 499
 	},
@@ -83,7 +83,7 @@ export const eventData = [
 		id: 9,
 		name: 'golden 90s with kumar sanu and alka yagnik',
 		img: './img/img10.png',
-		date: '14 sep 2019',
+		sdate: '14 nov 2019',
 		age: '3+',
 		time: '3hrs',
 		location: 'gachibowli indoor stadium',
@@ -95,7 +95,8 @@ export const eventData = [
 		img: './img/img11.png',
 		time: '5hrs',
 		age: '18+',
-		date: '31 aug-15 sep 2019',
+		sdate: '30 oct 2019',
+		edate: '15 nov 2019',
 		location: 'multiple venues',
 		price: 0
 	},
@@ -105,7 +106,7 @@ export const eventData = [
 		img: './img/img12.png',
 		time: '7hrs',
 		age: '18+',
-		date: '21 sep 2019',
+		sdate: '21 oct 2019',
 		location: 'vivanta by taj-hyderabad',
 		price: 0
 	},
@@ -115,7 +116,7 @@ export const eventData = [
 		img: './img/img13.png',
 		time: '5hrs 45 min',
 		age: '3+',
-		date: '14 sep 2019',
+		sdate: '14 nov 2019',
 		location: 'syn asian bar,hyderabad',
 		price: 600
 	}

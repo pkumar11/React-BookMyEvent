@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 class Event extends Component {
 	render() {
 		const { id, name, img, location, price } = this.props.event;
-		console.log(this.props.event);
 
 		return (
 			<div className="card-container">

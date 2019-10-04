@@ -13,17 +13,17 @@ class EventDetails extends Component {
 		days: 0
 	};
 	async componentDidMount() {
-		console.log(typeof this.props.match.params.id);
+		console.log( this.props.match.params.id);
 		const response = await eventData.find((data) => data.id.toString() === this.props.match.params.id);
 		console.log('**********', { response });
-		setInterval(() => this.getcountdown(), 1000);
 		this.setState({
 			response
 		});
+		setInterval(() => this.getcountdown(), 1000);
 	}
 
 	getcountdown = () => {
-		const time = Date.parse(this.state.response.date) - Date.parse(new Date());
+		const time = Date.parse(this.state.response.sdate) - Date.parse(new Date());
 		const seconds = Math.floor((time / 1000) % 60);
 		const minutes = Math.floor((time / 1000 / 60) % 60);
 		const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
@@ -33,6 +33,8 @@ class EventDetails extends Component {
 	leading0 = (num) => {
 		return num < 10 ? '0' + num : num;
 	};
+	
+
 	render() {
 		console.log(this.props.match.params.id);
 		const { response } = this.state;
@@ -47,12 +49,10 @@ class EventDetails extends Component {
 						<h1>{response.name}</h1>
 						<p>Age limi:{response.age}</p>
 						<p>Total Time:{response.time}</p>
-						<h3>Date: {response.date}</h3>
+						<h3>Date: {response.sdate}   {response.edate?response.edate:null}</h3>
 						<h3>Location: {response.location}</h3>
 						<h2>Price: {response.price}/- onwards</h2>
-						<Link to="/authorize">
-							<button type="submit">Book Now</button>
-						</Link>
+						
 					</div>
 				</div>
 				<div className="countdown">

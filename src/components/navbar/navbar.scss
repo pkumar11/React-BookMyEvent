@@ -20,12 +20,13 @@
 	font-size: 1.6rem;
 	transition: all 0.3s linear;
 	&:hover {
+		color: white;
+	}
+	&:visited {
 		color: $mainDarkBlue;
 	}
 }
-.active {
-	color: $mainDarkBlue;
-}
+
 .img {
 	background-repeat: no-repeat;
 	height: 5rem;
